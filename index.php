@@ -62,7 +62,7 @@
     <section class="banner" class="container-fluid p-0">
         <div class="banner-img" style="position:relative; background:url('imagenes/backhome.jpeg') center/cover no-repeat; height:400px ">
             <div class="banner-text" style="position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); text-align:center; color:#ffff;">
-                <h1>Los Revolucionarios</h1>
+                <h1>Los Revolucionarios Amikos</h1>
                 <p>Restaurante Familiar</p>
                 <a href="#menu" class="btn btn-primary">Ver Menú</a>
             </div>
