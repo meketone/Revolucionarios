@@ -1,0 +1,122 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+    overflow-x: hidden;
+    height: 100%; /* Asegura que el body tenga la altura mínima del viewport */
+    position: relative; /* Importante para que el footer se posicione correctamente */
+}
+
+header {
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd700;
+}
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 140px);
+    margin-bottom: 40px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-content {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.button {
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    border-top: 3px solid orange;
+    z-index: 10;
+    height: 80px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        padding: 5px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .swiper-container {
+        height: calc(100vh - 100px); /* Ajustar para más espacio en móviles */
+    }
+
+    .main-content {
+        bottom: 20px;
+    }
+
+    footer {
+        padding: 20px 10px;
+        bottom: -40px; /* Ajustar la posición del footer en móviles */
+        height: 60px; /* Ajustar la altura del footer en móviles */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        padding: 8px 10px;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+}
