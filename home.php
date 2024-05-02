@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los Revolucionarios</title>
     <link rel="stylesheet" href="css\home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-</head>
+
+    
+    <?php require('./layouts\header.php') ?>
+    <!-- </head>
 <body>
     <header>
         <div class="menu-container">
             <iframe class="header_principal" src="menu.html" frameborder="0"></iframe>
-        </div>
+        </div> -->
 
     <!-- <header>
         <nav>
@@ -36,11 +40,14 @@
         <!-- Button placed over the carousel -->
         <a href="#menu" class="button main-content">Ir al Menú</a>
     </div>
-    <footer>
+    <?php require('./layouts\footer.php') ?>
+    <!-- <footer>
         <img src="path/to/logo.png" alt="Logo de la compañía" class="logo">
         <p>Sucursales | Horario: 10:30am - 1:00am | Teléfono: 443 232 4326 | Nuestro Menú: Tacos, La Parrilla, Mariscos, Sandwich, Ensaladas, Especialidades, Botanas, Cocteles ESP</p>
-    </footer>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="home.js"></script>
-</body>
+    <script src="js\scriptmenu.js"></script>
+    </body>
+
 </html>

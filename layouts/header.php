@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="css\menu.css">
+    <link rel="stylesheet" href="css\footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-    <title>Menu</title>
+    <title>Los Revolucionarios</title>
 </head>
 
 <body>
@@ -86,7 +88,7 @@
     </header>
 
     <!--=============== MAIN JS ===============-->
-    <script src="js\scriptmenu.js"></script>
-</body>
 
-</html>
+<!-- </body>
+
+</html> -->
