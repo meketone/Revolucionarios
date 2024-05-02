@@ -1,0 +1,206 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd700;
+}
+
+#principalContacto{
+    height: 100vh;
+    background-color: white;
+}
+
+#principalContacto .contacto h1{
+    font-size: 50px;
+}
+
+.contenedor {
+    text-align: center; /* Para centrar el contenido */
+  }
+
+  .medio-circulo {
+    width: 100%; /* Ancho del círculo */
+    height: 70vh; /* Altura del círculo */
+    background-color: #f0f0f0; /* Color de fondo del círculo */
+    border-radius: 0 0 3000px 3000px; /* Hacemos que la esquina inferior izquierda y derecha sean redondeadas para crear un círculo perfecto */
+    position: relative; /* Permitirá posicionar la imagen dentro del círculo */
+    overflow: hidden; /* Para ocultar partes de la imagen que sobrepasen el círculo */
+  }
+  
+  .medio-circulo img {
+    width: 100%; /* La imagen ocupará todo el ancho del círculo */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    display: block; /* Para eliminar cualquier espacio adicional alrededor de la imagen */
+    position: absolute; /* Posiciona la imagen relativa al contenedor */
+    bottom: 0; /* Alinea la imagen en la parte inferior del círculo */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translateX(-50%); /* Ajusta la posición de la imagen horizontalmente */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
+    opacity: 0; /* Configura la opacidad inicial en 0 (completamente transparente) */
+    animation: aparecer 1s ease forwards; /* Define la animación 'aparecer' con una duración de 1 segundo */
+  }
+  
+  @keyframes aparecer {
+    from {
+      opacity: 0; /* Comienza con una opacidad de 0 */
+    }
+    to {
+      opacity: 1; /* Termina con una opacidad de 1 */
+    }
+  }
+  
+  
+  .contacto {
+    margin-top: 50px; /* Espacio entre el círculo y el texto de contacto */
+  }
+
+  
+#principalContacto a{
+    size: 1100px;
+}
+
+.redes .facebook {
+    width: 400px; 
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border-top: 100px;
+  }  
+  
+  .redes{
+    display: inline; /* Para que el texto de los números esté en línea con los iconos */
+  }
+
+  .sucursales {
+    background-color: white;
+    height: 100px;
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 100px; /* Centra el texto verticalmente */
+    font-size: 50px; /* Tamaño de fuente más grande */
+  }  
+
+#contacto {
+    display:block;
+    background-color: white;
+    height: 100vh;
+}
+
+#mapita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 6vh;
+}
+
+
+#map {
+    height: 90%;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#flecha {
+    /* Estilos para el contenedor, si es necesario */
+  }
+  
+  #flecha img {
+    display: block; /* Para que la imagen ocupe todo el ancho del contenedor */
+    height: 20vh;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-bottom: 200px;
+  }
+  
+
+  footer {
+    background-color: #333; /* Gris oscuro como en tu ejemplo */
+    padding: 20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-logo img {
+    display: block;
+    margin: 0 auto 20px; /* Centrado y con espacio hacia abajo */
+    width: 120px; /* Ajustar según el tamaño deseado */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc; /* Gris más claro para el texto */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px; /* Espaciado para no pegar los textos a los bordes */
+}
+
+.footer-section h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #fff; /* Blanco para los títulos */
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #fff; /* Blanco para los iconos */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ddd; /* Gris claro para el hover */
+}
