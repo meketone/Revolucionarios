@@ -1,0 +1,59 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+footer {
+    background-color: #333; /* Gris oscuro como en tu ejemplo */
+    padding: 20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer-logo img {
+    display: block;
+    margin: 0 auto 20px; /* Centrado y con espacio hacia abajo */
+    width: 120px; /* Ajustar según el tamaño deseado */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc; /* Gris más claro para el texto */
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px; /* Espaciado para no pegar los textos a los bordes */
+}
+
+.footer-section h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #fff; /* Blanco para los títulos */
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #fff; /* Blanco para los iconos */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ddd; /* Gris claro para el hover */
+}
