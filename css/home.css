@@ -1,15 +1,4 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-    background-color: #000;
-    overflow-x: hidden;
-    height: 100%; /* Asegura que el body tenga la altura mínima del viewport */
-    position: relative; /* Importante para que el footer se posicione correctamente */
-}
-
-header {
+/* header {
     background: linear-gradient(to right, #ff9900, #ff6600);
     padding: 10px 0;
     text-align: center;
@@ -33,7 +22,42 @@ nav ul li a {
 nav ul li a:hover, nav ul li a:focus {
     background-color: rgba(255, 255, 255, 0.2);
     color: #ffd700;
+} */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #000;
+    overflow-x: hidden;
+    height: 100%; /* Asegura que el body tenga la altura mínima del viewport */
+    position: relative; /* Importante para que el footer se posicione correctamente */
 }
+
+
+
+.menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.header_principal {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    /* Añadido para cubrir el fondo del menú */
+}
+/* .header_principal {
+    width: 100% !important;
+    height: 5rem;
+    z-index: 9999;
+    position: relative;
+} */
 
 .swiper-container {
     position: relative;
@@ -120,3 +144,5 @@ footer {
         padding: 10px 20px;
     }
 }
+
+
