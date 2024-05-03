@@ -10,7 +10,7 @@
 <body> -->
     <footer>
         <div class="footer-logo">
-            <img src="imagenes\Logo_blanco.png" alt="Logo Los Revolucionarios">
+            <img src="../imagenes\Logo_blanco.png" alt="Logo Los Revolucionarios">
         </div>
         <div class="footer-container">
             <div class="footer-section">

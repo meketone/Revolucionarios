@@ -141,9 +141,8 @@ nav ul li a:hover, nav ul li a:focus {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#flecha {
-    /* Estilos para el contenedor, si es necesario */
-  }
+/*#flecha {
+  }*/
   
   #flecha img {
     display: block; /* Para que la imagen ocupe todo el ancho del contenedor */
