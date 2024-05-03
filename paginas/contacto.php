@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="icon" href="logo1.png">
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/3e5cca439c.js" crossorigin="anonymous"></script>
-    <script src="js\scriptmenu.js"></script>
+    <script src="..\js\scriptmenu.js"></script>
 
-    <?php require('./layouts\header.php') ?>
+    <?php require('../layouts/header.php') ?>
 
 
     <section id="principalContacto">

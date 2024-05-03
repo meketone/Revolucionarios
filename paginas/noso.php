@@ -6,7 +6,7 @@
     <title>Los Revolucionarios</title>
     <meta name="Autor" content="Steve">
     <link rel="stylesheet" href="">
-    <link rel="stylesheet" href="noso.css">
+    <link rel="stylesheet" href="../css/noso.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -114,7 +114,6 @@
             </div>
         </section>
     </main>
-<script src="nosotros.js"></script>
 </body>
 <?php require('../layouts\footer.php') ?>
 </html>
