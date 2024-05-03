@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: "Red Hat Display", sans-serif; 
+
+}
+
+/*
+header{
+    background-color: #D0B7E1;
+    padding: 20px;
+    text-align: center;
+}
+*/
+main {
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.image{
+    flex: 1;
+    margin-right: 20px;
+    opacity: 0;
+    animation: slideInFromLeft 1s forwards;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content{
+    flex: 2;
+    opacity: 0;
+    animation: slideInFromRight 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+footer{
+    background-color: #333; /* Gris oscuro como en tu ejemplo */
+    padding: 20px 50px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+.text{
+    text-align: justify;
+}
+
+.sangria{
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: justify;
+}
+
+#TituloA{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f1cae0;
+    padding: 10px;
+}
+
+
+/* ESTILOS DE VISION */
+#TituloV{
+    text-align: center;
+    font-size: 25px;
+    background-color: #f1cae0;
+    padding: 10px;
+}
+
+.container-vision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 Columnas de igual tamaño */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center;
+    align-items: center;
+    background-color: #f1cae0;
+}
+
+.box {
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+/* ESTILOS DE POLITICAS DE PRIVACIDAD  */
+#TituloPP{
+    text-align: justify;
+    font-size: 25px;
+    background-color: #f1cae0;
+    padding: 10px;
+}
+
+.container-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.image-p{
+    flex: 1;
+    margin-right: 20px;
+    opacity: 0;
+    animation: slideInFromLeft 1s forwards;
+}
+
+/*
+.image-p img{
+    max-width: 100%;
+    height: auto;
+}
+
+*/
+
+/*---------------RESPONSIVIDAD----------*/
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em; /* Reduce el tamaño de fuente para pantallas pequeñas */
+        margin-top: 5%; /* Ajusta el margen superior */
+        margin-bottom: 2%; /* Ajusta el margen inferior */
+    }
+
+    .navbar {
+        flex-direction: column; /* Cambia la disposición a columna en pantallas pequeñas */
+        align-items: center; /* Centra los elementos */
+    }
+
+    #icono-nav, #titulo-nav {
+        margin-left: 0; /* Centra el icono y el título */
+        text-align: center; /* Centra el texto */
+    }
+
+    .botones-nav {
+        margin-left: 0; /* No desplaza los botones a la derecha */
+        display: flex;
+        justify-content: center; /* Centra los botones */
+        flex-direction: row; /* Mantiene los botones en línea horizontal */
+    }
+    
+    .botones-nav button {
+        font-size: 0.875rem; /* Tamaño de fuente reducido para mejor ajuste en pantallas pequeñas */
+        padding: 0.3em 0.6em; /* Reduce el padding para botones más pequeños */
+        margin-right: 1em; /* Ajustar espacio entre botones */
+    }
+}
+
+@media (max-width: 480px) {
+    #titulo-nav {
+        font-size: 1.125rem; /* Reduce el tamaño del título para pantallas muy pequeñas */
+    }
+
+    .botones-nav button {
+        font-size: 0.75rem; /* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
+    }
+
+    h1 {
+        font-size: 2em; /* Tamaño de fuente aún más pequeño para pantallas muy pequeñas */
+    }
+
+}
