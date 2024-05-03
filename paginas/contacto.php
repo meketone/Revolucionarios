@@ -18,7 +18,7 @@
     <section id="principalContacto">
         <div class="contenedor">
             <div class="medio-circulo">
-                <img src="Revolucionarios\imagenes\horarios.png" alt="Descripción de la imagen">
+                <img src="..\imagenes\horarios.png" alt="Descripción de la imagen">
             </div>
             <div class="contacto">
                 <h1>CONTACTO</h1>
@@ -26,10 +26,10 @@
 
             <div class="redes">
                 <div class="whatsapp">
-                    <a href=""><img src="Revolucionarios\imagenes\whatsapp.png" alt="Icono de WhatsApp"></a>
+                    <a href=""><img src="..\imagenes\whatsapp.png" alt="Icono de WhatsApp"></a>
                 </div>
                 <div class="facebook">
-                    <a href=""><img src="Revolucionarios\imagenes\facebook.png" alt="Icono de Facebook"></a>
+                    <a href=""><img src="..\imagenes\facebook.png" alt="Icono de Facebook"></a>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@
 
     <section id="flecha">
         <div class="direccion">
-            <img src="Revolucionarios\imagenes\direccion.png" alt="">
+            <img src="..\imagenes\direccion.png" alt="">
         </div>
     </section>
 
