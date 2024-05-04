@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-<script src="..\js\scriptmenu.js"></script>
+
 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="..\css\menu.css">
 <link rel="stylesheet" href="..\css\footer.css">
@@ -88,7 +88,7 @@
             </div>
         </nav>
     </header>
-
+    <script src="..\js\scriptmenu.js"></script>
     <!--=============== MAIN JS ===============-->
 
     <!-- </body>

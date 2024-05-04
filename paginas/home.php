@@ -7,11 +7,11 @@
     <title>Los Revolucionarios</title>
     <link rel="stylesheet" href="..\css\home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-    <script src="..\js\home.js"></script>
-    <script src="..\js\scriptmenu.js"></script>
+
 
 
     <?php require('..\layouts\header.php') ?>
+
     <!-- </head>
 <body>
     <header>
@@ -50,6 +50,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- <script src="js\scriptmenu.js"></script> -->
+    <script src="..\js\home.js"></script>
     </body>
 
 </html>
