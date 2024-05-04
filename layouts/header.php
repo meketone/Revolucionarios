@@ -9,7 +9,6 @@
 <link rel="stylesheet" href="..\css\menu.css">
 <link rel="stylesheet" href="..\css\footer.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
 <title>Los Revolucionarios</title>
 </head>
 
@@ -31,7 +30,7 @@
             <!--=============== NAV MENU ===============-->
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li><a href="#" class="nav__link">Inicio</a></li>
+                    <li><a href="home.php" class="nav__link">Inicio</a></li>
 
                     <!--=============== DROPDOWN 1 ===============-->
                     <li class="dropdown__item">
@@ -81,9 +80,9 @@
                         </ul>
                     </li>
 
-                    <li><a href="#" class="nav__link">Sobre Nosotros</a></li>
+                    <li><a href="noso.php" class="nav__link">Sobre Nosotros</a></li>
 
-                    <li><a href="#" class="nav__link">Contacto</a></li>
+                    <li><a href="contacto.php" class="nav__link">Contacto</a></li>
                 </ul>
             </div>
         </nav>

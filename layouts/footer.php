@@ -1,39 +1,63 @@
 <!-- <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Footer Exacto</title>
-    <link rel="stylesheet" href="css\footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
+
 <body> -->
-    <footer>
-        <div class="footer-logo">
-            <img src="../imagenes\Logo_blanco.png" alt="Logo Los Revolucionarios">
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../imagenes\Logo_blanco.png" alt="Logo Los Revolucionarios">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <div class="sec">
+                    <h2>Sucursales</h2>
+                    <p><a href="https://maps.app.goo.gl/n6PD2rPWoW9whqZm9">#519 Av. Torreón Nuevo, Morelia, Mich.</a>
+                    </p>
+                </div>
+                <div class="sec">
+                    <h2>Horario</h2>
+                    <p>1:00pm - 1:00am</p>
+                </div>
+                <div class="sec">
+                    <h2>Teléfono</h2>
+                    <p>443 - 232 - 4326</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="menusito">
+                    <h2>Nuestro Menú</h2>
+                    <p><a href=""> TACOS </a>| <a href=""> LA PARRILLA </a> | <a href="">MARISCOS</a> |
+                        <a href="">SANDWICH</a> | <a href="">ENSALADAS</a> | <a href="">ESPECIALIDADES</a> |
+                        <a href="">BOTANAS</a> | <a href="">COCTELES ESP</a>
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </div>
         </div>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Sucursales</h4>
-                <p>#519 Av. Torreón Nuevo, Morelia, Mich.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Horario</h4>
-                <p>1:00pm - 1:00am</p>
-            </div>
-            <div class="footer-section">
-                <h4>Teléfono</h4>
-                <p>443 232 4326</p>
-            </div>
-            <div class="footer-section">
-                <h4>Nuestro Menú</h4>
-                <p>TACOS | LA PARRILLA | MARISCOS | SANDWICH | ENSALADAS | ESPECIALIDADES | BOTANAS | COCTELES ESP</p>
-            </div>
-            <div class="footer-socials">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>TechGenious</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
-<!-- </body>
-</html> -->
+
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
