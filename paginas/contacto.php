@@ -71,7 +71,9 @@
         </div>
     </section>
 
-    <footer>
+    <?php require('..\layouts\footer.php') ?>
+
+    <!-- <footer>
         <div class="footer-logo">
             <img src="path/to/your/logo.png" alt="Logo Los Revolucionarios">
         </div>
@@ -97,7 +99,7 @@
                 <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </footer>
+    </footer> -->
     </body>
 
 </html>

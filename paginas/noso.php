@@ -60,19 +60,19 @@
         </section>
         <section id="vision">
             <div class="container-vision">
-                <div class="box">
+                <div class="boxe">
                     <h1>Terapeuta virtual personalizado:</h1>
                     <p>En RUOK? ofecemos sesiones de terapia personalizadas utilizando algoritmos de IA que analizan los patrones de comportamiento y las respuestas del usuario. A través de conversaciones simuladas, la IA podra proporcionar orientación, ejercicios de relajación y técnicas de afrontamiento adaptadas a las necesidades específicas del individuo.</p>
                 </div>
-                <div class="box">
+                <div class="boxe">
                     <h1>Seguimiento emocional y alertas tempranas:</h1>
                     <p>Lucy podra utilizar análisis de datos y procesamiento de lenguaje natural para monitorear las interacciones del usuario en redes sociales, mensajes de texto y correos electrónicos. Al detectar cambios significativos en el tono o el contenido de las comunicaciones, Lucy podría enviar alertas tempranas y sugerir recursos de apoyo o intervención profesional si es necesario.</p>
                 </div>
-                <div class="box">
+                <div class="boxe">
                     <h1>Entrenador de habilidades sociales:</h1>
                     <p>Lucy podra ofrecer simulaciones de situaciones sociales y proporcionar retroalimentación sobre las respuestas del usuario, ayudándoles a mejorar sus habilidades de comunicación, empatía y resolución de conflictos. Además, Lucy podría ofrecer consejos personalizados para enfrentar situaciones sociales difíciles, como hablar en público o establecer límites saludables en las relaciones interpersonales.</p>
                 </div>
-                <div class="box">
+                <div class="boxe">
                     <h1>Diario emocional inteligente:</h1>
                     <p>Lucy podra servir como un diario emocional interactivo, donde los usuarios registran sus pensamientos, sentimientos y experiencias diarias. Utilizando algoritmos, Lucy podría identificar patrones emocionales, factores desencadenantes y tendencias a lo largo del tiempo. Con esta información, Lucy podría ofrecer insights y recomendaciones personalizadas para mejorar el bienestar emocional y la salud mental del usuario.</p>
                 </div>
