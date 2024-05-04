@@ -56,8 +56,6 @@
             <small>&copy; 2024 <b>TechGenious</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 <!-- </body>
 
 </html> -->

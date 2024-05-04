@@ -96,7 +96,7 @@ body, html {
     transform: scale(1.1);
 }
 
-footer {
+/* footer {
     background-color: #222;
     color: white;
     padding: 30px 20px;
@@ -107,7 +107,7 @@ footer {
     border-top: 3px solid orange;
     z-index: 10;
     height: 80px;
-}
+} */
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -127,11 +127,7 @@ footer {
         bottom: 20px;
     }
 
-    footer {
-        padding: 20px 10px;
-        bottom: -40px; /* Ajustar la posición del footer en móviles */
-        height: 60px; /* Ajustar la altura del footer en móviles */
-    }
+
 }
 
 @media (max-width: 480px) {
