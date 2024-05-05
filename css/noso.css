@@ -13,6 +13,7 @@ html, body{
 p{
     color: #333;
 }
+
 /*
 header{
     background-color: #D0B7E1;
@@ -105,54 +106,78 @@ footer{
 #TituloA{
     text-align: center;
     font-size: 25px;
-    background-color: #f1cae0;
+    background-color: #ffffff;
+    color: #E72D36;
     padding: 10px;
 }
 
 
-/* ESTILOS DE VISION */
+/* SECCION DE ACERCA DE NUESTRA COMIDA*/
 #TituloV{
     text-align: center;
     font-size: 25px;
-    background-color: #f1cae0;
+    background-color: #ffffff;
+    color: #F1830B;
     padding: 10px;
 }
 
 .container-vision {
+    display: flex;
+}
+
+.grid-img{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 Columnas de igual tamaño */
-    gap: 20px; /* Espacio entre los elementos */
-    justify-content: center;
-    align-items: center;
-    background-color: #f1cae0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: calc(50% - 10px);
 }
 
-.boxe {
+.img-grid{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-grid img{
     width: 100%;
-    padding: 20px;
-    margin: 20px;
-    background-color: #ffffff;
-    text-align: justify;
-    border-radius: 8px;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
 }
+ 
 
-/* ESTILOS DE POLITICAS DE PRIVACIDAD  */
-#TituloPP{
-    text-align: justify;
-    font-size: 25px;
-    background-color: #f1cae0;
-    padding: 10px;
+.textoV{
+    width: calc(50% - 10px);
+    margin-right: 10px;
 }
+/* ------------------------------------------------------------ */
 
-.container-p{
+/* ESTILOS DE EXPLORAR EVENTOS */
+
+.container-E{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
     opacity: 0;
     animation: fadeIn 1s forwards;
+    background-image: url(../imagenes/EJazz.jpg);
+    background-size: 85em;
+    background-position: 35%;
 }
 
+#Eeventos{
+    color: #ffffff;
+}
+
+.sangria-E{
+    padding-left: 160px;
+    padding-right: 160px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+/*
 .image-p{
     flex: 1;
     margin-right: 20px;
@@ -160,7 +185,7 @@ footer{
     animation: slideInFromLeft 1s forwards;
 }
 
-/*
+
 .image-p img{
     max-width: 100%;
     height: auto;
@@ -215,3 +240,31 @@ footer{
     }
 
 }
+
+/* SECCION DEL TITULO DE GLOBO */
+.globito-img{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.globito-img img {
+    width: 100%;
+}
+
+.globito-img h1 {
+    font-size: 36px;
+}
+
+.globito-img hr.circle-line {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.globito-img p {
+    font-size: 18px;
+}
+
+/*--------------------------------------------------*/
+
+
