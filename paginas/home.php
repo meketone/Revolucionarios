@@ -37,24 +37,24 @@
     </div>
     <div class="wave2">
         <label class="label">Favorito</label>
-        <a href="#menu" class="button-main-content">IR AL MENÚ</a>
+        <a href="..\paginas\menu_comida.php" class="button-main-content">IR AL MENÚ</a>
         <p style="letter-spacing: .1rem;">Consulta nuestras platillos ahora mismo</p>
         <div class="swiper-pagination"></div>
     </div>
-    
+
     <div class="swiper-container">
 
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-                    <img src="../imagenes/editadas/_DSC0023.jpg" alt="Imagen 1">
+                <img src="../imagenes/editadas/_DSC0023.jpg" alt="Imagen 1">
             </div>
             <div class="swiper-slide">
-                    <img src="../imagenes/editadas/_DSC0047.jpg" alt="Imagen 2">
+                <img src="../imagenes/editadas/_DSC0047.jpg" alt="Imagen 2">
             </div>
             <div class="swiper-slide">
-                    <img src="../imagenes/editadas/_DSC0059.jpg" alt="Imagen 3">
+                <img src="../imagenes/editadas/_DSC0059.jpg" alt="Imagen 3">
             </div>
         </div>
 

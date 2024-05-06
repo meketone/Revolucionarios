@@ -43,10 +43,8 @@ if(!isset($_SESSION["usuario"])){
                 <div class="nav navbar-nav">
                     <a class="nav-item nav-link active" href="<?php echo $url_base;?>index.php" aria-current="page">Administrador <span class="visually-hidden">(current)</span></a>
 
-                    <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/banners/">Banners</a>
-                    <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/Testimonios/">Testimonios</a>
+
                     <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/menu/">Menú</a>
-                    <a class="nav-item nav-link" href="#">Comentarios</a>
                     <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/usuarios/">Usuario</a>
                     <a class="nav-item nav-link" href="<?php echo $url_base;?>cerrar.php">Cerrar Sesion</a>
                 </div> 
