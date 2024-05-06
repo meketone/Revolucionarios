@@ -34,8 +34,9 @@ $url_base="https://localhost/revproject/admin/";
                     <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/Testimonios/">Testimonios</a>
                     <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/menu/">Menú</a>
                     <a class="nav-item nav-link" href="#">Comentarios</a>
+                    <a class="nav-item nav-link" href="<?php echo $url_base;?>seccion/usuarios/">Usuario</a>
                     <a class="nav-item nav-link" href="#">Cerrar Sesion</a>
-                </div>
+                </div> 
             </nav>
             
 

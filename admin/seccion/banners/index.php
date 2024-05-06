@@ -17,9 +17,9 @@ $sentencia->execute();
 
 $lista_banners= $sentencia->fetchAll(PDO::FETCH_ASSOC);
 
-
 include("../../templates/header.php"); 
 ?>
+
 <br/>
 <div class="card">
     <div class="card-header">
