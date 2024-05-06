@@ -305,3 +305,49 @@ a {
         transition:  top .3s;
     }
 }
+
+/* Estilos adicionales para el menú desplegable */
+.sidebar {
+    position: fixed;
+    left: -250px; /* Posición inicial fuera de la pantalla */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: #333; /* Color de fondo del sidebar */
+    transition: left 0.3s ease;
+    z-index: 1500; /* Asegura que esté por encima de otros contenidos pero bajo el nav toggle */
+}
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+.menu-icon {
+    cursor: pointer;
+    position: fixed; /* Importante para mantener el botón visible */
+    top: 20px; /* Ajusta según la maquetación de tu sitio */
+    left: 20px; /* Posición a la izquierda */
+    z-index: 2000; /* Asegúrate de que está por encima de otros elementos */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espacio entre las líneas del ícono del menú */
+}
+
+.menu-icon-line {
+    width: 30px; /* Ancho de las líneas del ícono del menú */
+    height: 3px; /* Altura de las líneas */
+    background-color: white; /* Color de las líneas */
+}

@@ -15,6 +15,22 @@
 <body>
     <!--=============== HEADER ===============-->
     <header class="header">
+        <!-- Botón para desplegar el menú lateral -->
+    <div class="menu-icon" onclick="toggleMenu()">
+    <nav class="sidebar" id="sidebar">
+    <ul>
+        <li><a href="#">Editar Menú</a></li>
+        <li><a href="#">Borrar Platillo</a></li>
+        <li><a href="#">Consultar Platillo</a></li>
+    </ul>
+    </nav>
+
+        <div class="menu-icon-line"></div>
+        <div class="menu-icon-line"></div>
+        <div class="menu-icon-line"></div>
+    </div>
+
+
         <nav class="nav container">
             <div class="nav__data">
                 <a href="" class="nav__logo">
@@ -86,6 +102,7 @@
                 </ul>
             </div>
         </nav>
+
     </header>
     <script src="..\js\scriptmenu.js"></script>
     <!--=============== MAIN JS ===============-->
