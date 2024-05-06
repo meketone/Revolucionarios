@@ -1,6 +1,17 @@
 <?php 
 include("../../bd.php");
 
+if(isset($_GET['txtID'])){
+
+    $txtID=(isset($_GET["txtID"]))?$_GET["txtID"]:"";
+
+    $sentencia=$conexion->prepare("DELETE FROM tbl_usuario WHERE ID=:id");
+    $sentencia->bindParam(":id", $txtID);
+    $sentencia->execute();
+
+    header("Location:index.php");
+}
+
 $sentencia=$conexion->prepare("SELECT * FROM `tbl_usuario`");
 $sentencia->execute();
 $lista_usuario=$sentencia->fetchAll(PDO::FETCH_ASSOC);
@@ -33,11 +44,10 @@ include("../../templates/header.php");
                 <tr class="">
                     <td><?php echo $registro["ID"];?></td>
                     <td><?php echo $registro["usuario"];?></td>
-                    <td><?php echo $registro["password"];?></td>
+                    <td>*****</td>
                     <td><?php echo $registro["correo"];?></td>
                     <td>
-                    <a name=""id=""class="btn btn-info"href="editar.php?txtID=<?php echo $registro['ID']; ?>"role="button">Editar</a>
-                            <a name=""id=""class="btn btn-danger"href="index.php?txtID=<?php echo $registro['ID']; ?>" role="button">Eliminar</a>
+                        <a name=""id=""class="btn btn-danger"href="index.php?txtID=<?php echo $registro['ID']; ?>" role="button">Eliminar</a>
                     </td>
                 </tr>
                 <?php } ?>

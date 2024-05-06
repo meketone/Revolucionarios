@@ -34,8 +34,9 @@
 
                     <!--=============== DROPDOWN 1 ===============-->
                     <li class="dropdown__item">
-                        <div class="nav__link">
-                            Menu <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        <div class="nav__link"><a href="menu_comida.php">
+                                Menu <a/> <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+
                         </div>
 
                         <ul class="dropdown__menu">

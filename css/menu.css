@@ -11,7 +11,7 @@
     --black-color-light: #ec691c;
     --black-color-lighten: #f1830b;
     --white-color: #fff;
-    --body-color: hsl(220, 100%, 97%);
+    --body-color: hsl(0, 0%, 100%);
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
