@@ -14,20 +14,28 @@
     
 <?php require('../layouts\header.php') ?>
 
-    <!--NAVBAR PHP-->
-    <!--
-    NAVBAR
-    <nav class="navbar">
-        <img id="icono-nav" src="imagenes/" alt="RUOK?" width="65">
-        <span id="titulo-nav">RUOK?</span>
-        <div class="botones-nav">
-            <button id="Inicio-nav">Inicio</button>
-            <button id="Nosotros-nav">Nosotros</button>
-            <button id="Servicios-nav">Servicios</button> 
-        </div>
-    </nav> --> 
-
     <main>
+        <section id="Titulo-Circular">
+            <div class="container-TC">
+                <div class="texto-TC">
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="tituloTC"> Nuestra Historia </h1>
+                    <!--LINEA DE SEPARACION-->
+                    <div class="line-container">
+                        <div class="line"></div>
+                    </div>
+                    <!----------------------->
+                    <p class="subtituloTC">
+                        Lugar completamente traicional con años de experiencia en la
+                    </p>
+                    <p class="subtituloTC">
+                        creación de alimentos en el estado de Morelia, Michoacán
+                    </p>
+                </div>
+            </div>
+        </section>
         <section id="TituloA"><br>
             <h1>Acerca de nuestro Menú</h1>
         </section>

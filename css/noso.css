@@ -73,15 +73,6 @@ p{
     }
 }
 
-footer{
-    background-color: #333; /* Gris oscuro como en tu ejemplo */
-    padding: 20px 50px;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-
 
 .text{
     text-align: justify;
@@ -153,7 +144,7 @@ footer{
     animation: fadeIn 1s forwards;
     background-image: url(../imagenes/EJazz.jpg);
     background-size: 85em;
-    background-position: 35%;
+    background-position: 30%;
 }
 
 #Eeventos{
@@ -252,30 +243,26 @@ footer{
 
 }
 
-/* SECCION DEL TITULO DE GLOBO */
-.globito-img{
-    max-width: 600px;
-    margin: auto;
+
+/*-------TITULO DE GLOBITO------- */
+#Titulo-Circular .tituloTC{
     text-align: center;
+    font-size: 25px;
+
 }
 
-.globito-img img {
-    width: 100%;
+#Titulo-Circular .subtituloTC{
+    text-align: center;
+    font-size: 15px;
 }
 
-.globito-img h1 {
-    font-size: 36px;
+.container-TC{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    background-image: url(../imagenes/EJazz.jpg);
+    background-size: 85em;
+    background-position: 30%;
 }
-
-.globito-img hr.circle-line {
-    width: 50px;
-    border-radius: 50%;
-}
-
-.globito-img p {
-    font-size: 18px;
-}
-
-/*--------------------------------------------------*/
-
-
