@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$url_base="https://localhost/revproject/admin/";
+$url_base="https://localhost/Revolucionarios/admin/";
 if(!isset($_SESSION["usuario"])){
     header("Location:".$url_base."login.php");
 }

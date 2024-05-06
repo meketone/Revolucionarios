@@ -4,35 +4,6 @@ ini_set('display_errors', 1);
 
 session_start();
 
-if ($_POST) {
-    include("bd.php");
-
-    $usuario = (isset($_POST["usuario"])) ? $_POST["usuario"] : "";
-    $password = (isset($_POST["password"])) ? $_POST["password"] : "";
-
-    // No se cifra la contraseña ingresada por el usuario
-
-    $sentencia = $conexion->prepare("SELECT *, count(*) n_usuario FROM `tbl_usuario` WHERE usuario=:usuario AND password=:password");
-
-    $sentencia->bindParam(":usuario", $usuario);
-    $sentencia->bindParam(":password", $password);
-    $sentencia->execute();
-    $lista_usuario = $sentencia->fetch(PDO::FETCH_LAZY);
-    $n_usuario = $lista_usuario["n_usuario"];
-    if ($n_usuario == 1) {
-        $_SESSION["usuario"] = $lista_usuario["usuario"];
-        $_SESSION["logueado"] = true;
-
-        header("Location:index.php");
-        exit; // Agrega esto para detener la ejecución del script después de la redirección
-    } else {
-        $mensaje = "Usuario o contraseña incorrectos...";
-    }
-}
-?>
-
-<?php
-
 include("bd.php");
 
 $sentencia = $conexion->prepare("SELECT * FROM `tbl_usuario`");
@@ -45,7 +16,7 @@ $usuarios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 
 <head>
-    <title>Login</title>
+    <title>Lista de usuarios</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -57,49 +28,6 @@ $usuarios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
 <body>
 
     <main>
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col"></div>
-
-                <div class="col">
-                    <br><br>
-                    <?php if (isset($mensaje)) { ?>
-                        <div class="alert alert-danger" role="alert">
-                            <strong>Error:</strong> <?php echo $mensaje; ?>
-                        </div>
-
-                    <?php } ?>
-                    <div class="card text-center">
-                        <div class="card-header"> Login </div>
-                        <div class="card-body">
-                            <form action="login.php" method="post">
-                                <div class="mb-3">
-                                    <label for="" class="form-label">Usuario:</label>
-                                    <input type="text" class="form-control" name="usuario" id="usuario" aria-describedby="helpId" placeholder="" />
-                                </div>
-
-                                <div class="mb-3">
-                                    <label for="" class="form-label">Password:</label>
-                                    <input type="password" class="form-control" name="password" id="password" placeholder="" />
-                                </div>
-
-                                <button type="submit" class="btn btn-primary">Entrar</button>
-
-                            </form>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="col"></div>
-
-            </div>
-
-        </div>
 
         <div class="container">
 
