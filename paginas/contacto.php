@@ -4,36 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>CONTACTO</title>
     <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="icon" href="logo1.png">
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/3e5cca439c.js" crossorigin="anonymous"></script>
-    <script src="..\js\scriptmenu.js"></script>
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <?php require('..\layouts\header.php') ?>
 
-    <?php require('../layouts/header.php') ?>
-
-
+<body>
     <section id="principalContacto">
         <div class="contenedor">
             <div class="medio-circulo">
-                <img src="..\imagenes\horarios.png" alt="Descripción de la imagen">
-            </div>
-            <div class="contacto">
-                <h1>CONTACTO</h1>
-            </div>
+                <img src="..\imagenes\editadas\_DSC0015.jpg" width="50%" alt="Descripción de la imagen">
+                <h1>Horarios</h1>
+                <h2>De lunes a domingo de</h2>
 
-            <div class="redes">
-                <div class="whatsapp">
-                    <a href=""><img src="..\imagenes\whatsapp.png" alt="Icono de WhatsApp"></a>
-                </div>
-                <div class="facebook">
-                    <a href=""><img src="..\imagenes\facebook.png" alt="Icono de Facebook"></a>
-                </div>
+                <strong>
+                    <h3>1:00 pm a 9:00 pm</h3>
+                </strong>
             </div>
+    </section>
 
+    <section id="sociales">
+        <div class="contacto">
+            <h1>CONTACTO</h1>
         </div>
+
+        <div class="redes">
+            <div class="whatsapp">
+                <a href=""><img src="..\imagenes\whatsapp.png" alt="Icono de WhatsApp"></a>
+            </div>
+            <div class="facebook">
+                <a href=""><img src="..\imagenes\facebook.png" alt="Icono de Facebook"></a>
+            </div>
+        </div>
+
     </section>
 
     <section class="sucursales">
@@ -67,39 +74,12 @@
 
     <section id="flecha">
         <div class="direccion">
-            <img src="..\imagenes\direccion.png" alt="">
+            <P><i class="em em-arrow_right_hook" aria-role="presentation" aria-label="RIGHTWARDS ARROW WITH HOOK"></i> Av. Torreón Nuevo 519, Vicente Riva Palacio, 58116 Morelia, Mich.</P>
         </div>
     </section>
 
     <?php require('..\layouts\footer.php') ?>
 
-    <!-- <footer>
-        <div class="footer-logo">
-            <img src="path/to/your/logo.png" alt="Logo Los Revolucionarios">
-        </div>
-        <div class="footer-container">
-            <div class="footer-section">
-                <h4>Sucursales</h4>
-                <p>#519 Av. Torreón Nuevo, Morelia, Mich.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Horario</h4>
-                <p>1:00pm - 1:00am</p>
-            </div>
-            <div class="footer-section">
-                <h4>Teléfono</h4>
-                <p>443 232 4326</p>
-            </div>
-            <div class="footer-section">
-                <h4>Nuestro Menú</h4>
-                <p>TACOS | LA PARRILLA | MARISCOS | SANDWICH | ENSALADAS | ESPECIALIDADES | BOTANAS | COCTELES ESP</p>
-            </div>
-            <div class="footer-socials">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-    </footer> -->
     </body>
 
 </html>
