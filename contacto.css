@@ -138,9 +138,9 @@ nav ul li a:hover, nav ul li a:focus {
   
   .medio-circulo h1 {
     color: white;
-    font-size: 80px;
+    font-size: 100px;
     position: relative;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -155,7 +155,7 @@ nav ul li a:hover, nav ul li a:focus {
     left: 50%;
     bottom: -30px; /* Coloca la barra 10 píxeles debajo del texto */
     width: 40%; /* largo de la barra */
-    height: 15px; /* Grosor de la barra */
+    height: 10%; /* Grosor de la barra */
     background: linear-gradient(to right, #ff9900, #ff6600);
     transform: translateX(-50%); /* Centra la barra horizontalmente */
     
@@ -165,9 +165,9 @@ nav ul li a:hover, nav ul li a:focus {
 
   .medio-circulo h2 {
     color: white;
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -179,7 +179,7 @@ nav ul li a:hover, nav ul li a:focus {
 
   .medio-circulo h3 {
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   position: relative;
   top: 30%;
   left: 50%;
