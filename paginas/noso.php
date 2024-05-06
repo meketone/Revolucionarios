@@ -10,32 +10,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    
-    
-<?php require('../layouts\header.php') ?>
-
+    <?php require('../layouts\header.php') ?>
+</head>
+<body>
     <main>
         <section id="Titulo-Circular">
-            <div class="container-TC">
-                <div class="texto-TC">
+            <div class="contenedor-TC">
+                <div class="medio-circulo">
+                    <img src="..\imagenes\Revolucionarios.jpg" alt="Imagen del establecimiento">
+                    <h1>Nuestra historia</h1>
                     <br>
                     <br>
                     <br>
-                    <h1 class="tituloTC"> Nuestra Historia </h1>
-                    <!--LINEA DE SEPARACION-->
-                    <div class="line-container">
-                        <div class="line"></div>
-                    </div>
-                    <!----------------------->
-                    <p class="subtituloTC">
-                        Lugar completamente traicional con años de experiencia en la
-                    </p>
-                    <p class="subtituloTC">
-                        creación de alimentos en el estado de Morelia, Michoacán
-                    </p>
+                    <br>
+                    <p>Lugar completamente tradicional con años de experiencia en la </p>
+                    <p>creación de alimentos en el estado de Morelia, Michoacán</p>
                 </div>
-            </div>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <section id="TituloA"><br>
             <h1>Acerca de nuestro Menú</h1>
         </section>
