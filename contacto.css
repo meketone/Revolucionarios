@@ -135,19 +135,59 @@ nav ul li a:hover, nav ul li a:focus {
       opacity: 1; /* Termina con una opacidad de 1 */
     }
   }
-
+  
   .medio-circulo h1 {
     color: white;
-  font-size: 50px;
+    font-size: 80px;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+  }
+  
+  .medio-circulo h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -30px; /* Coloca la barra 10 píxeles debajo del texto */
+    width: 40%; /* largo de la barra */
+    height: 15px; /* Grosor de la barra */
+    background: linear-gradient(to right, #ff9900, #ff6600);
+    transform: translateX(-50%); /* Centra la barra horizontalmente */
+    
+  }
+  
+  
+
+  .medio-circulo h2 {
+    color: white;
+  font-size: 30px;
   position: relative;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2; /* Asegura que el texto esté por encima de la imagen */
   color: white;
   font-family: 'Red Hat Display', sans-serif; /* Fallback a una fuente sans-serif por si la fuente no se carga correctamente */
+  font-weight: normal;
+  }
 
+  .medio-circulo h3 {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2; /* Asegura que el texto esté por encima de la imagen */
+  font-family: 'Red Hat Display', sans-serif; /* Fallback a una fuente sans-serif por si la fuente no se carga correctamente */
+  font-weight: 800;
   }
   
   
