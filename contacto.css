@@ -439,6 +439,7 @@ nav ul li a:focus {
   position: relative; /* Permitirá posicionar la imagen dentro del círculo */
   margin: 0 auto; /* Centra horizontalmente */
   overflow: hidden; /* Para ocultar partes de la imagen que sobrepasen el círculo */
+  
 }
 
 .medio-circulo img {
@@ -631,8 +632,6 @@ footer {
   color: #ddd; /* Gris claro para el hover */
 }
 
-}
-
 /* Eliminar márgenes y rellenos excesivos entre secciones */
 header,
 #principalContacto,
@@ -644,5 +643,8 @@ footer {
   margin-bottom: 0; /* Eliminar margen inferior */
   padding-top: 0; /* Eliminar relleno superior */
   padding-bottom: 0; /* Eliminar relleno inferior */
+}
+
+
 }
 
