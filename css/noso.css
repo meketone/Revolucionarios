@@ -12,18 +12,8 @@ html, body{
 
 p{
     color: #333;
+    font-size: 20px;
 }
-
-/*
-header{
-    background-color: #D0B7E1;
-    padding: 20px;
-    text-align: center;
-}
-*/
-/* main {
-    padding: 20px;
-} */
 
 .container{
     display: flex;
@@ -177,6 +167,26 @@ footer{
     color: #ffffff;
 }
 
+.line-container {
+    width: 60%;
+    height: 25px; /* Altura de la línea */
+    position: relative;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.line {
+    position: absolute;
+    left: 0;
+    top: 50%; /* Posición vertical de la línea */
+    width: 100%;
+    height: 5px; /* Grosor de la línea */
+    background: linear-gradient(to right, #E72D36, #F1830B); /* Color de la línea */
+    transform: translateY(-50%); /* Centra verticalmente la línea */
+
+}
+
+
 /*
 .image-p{
     flex: 1;
@@ -192,6 +202,7 @@ footer{
 }
 
 */
+/*---------------------------------------------------------- */
 
 /*---------------RESPONSIVIDAD----------*/
 

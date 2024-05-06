@@ -79,9 +79,14 @@
         <section id="Eeventos">
             <div class="container-E">
                 <div class="texto-E">
+                    <br>
+                    <br>
                     <h1 class="sangria">Explora Nuestros</h1>
                     <h1 class="sangria">Eventos</h1>
-                    <br>
+                    <!--LINEA DE SEPARACION-->
+                    <div class="line-container">
+                        <div class="line"></div>
+                    </div>
                     <p class="sangria-E">
                         Encuéntranos en redes sociales para estar 
                     </p>
@@ -94,6 +99,8 @@
                     <p class="sangria-E">
                         música jazz en vivo.  #JazzFridays
                     </p>
+                    <br>
+                    <br>
                 </div>
             </div>
         </section>
