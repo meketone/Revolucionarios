@@ -49,6 +49,7 @@ include("../../templates/header.php");
                     <th scope="col">Descripción</th>
                     <th scope="col">Foto</th>
                     <th scope="col">Precio</th>
+                    <th scope="col">Categoria</th>
                     <th scope="col">Acciones</th>
                 </tr>
             </thead>
@@ -61,6 +62,7 @@ include("../../templates/header.php");
                     <td><?php echo $registro["descripcion"];?></td>
                     <td> <img src="../../../imagenes/menu/<?php echo $registro["foto"]; ?>" width="50" alt="" srcset=""> </td>
                     <td>$<?php echo $registro["precio"];?></td>
+                    <td>$<?php echo $registro["category"];?></td>
                     <td>
                     <a name=""id=""class="btn btn-info"href="editar.php?txtID=<?php echo $registro['ID']; ?>"role="button">Editar</a>
                             <a name=""id=""class="btn btn-danger"href="index.php?txtID=<?php echo $registro['ID']; ?>" role="button">Eliminar</a>

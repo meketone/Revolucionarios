@@ -1,3 +1,4 @@
+/*------------------------------CONFIGURACIONES GENERALES--------------------------------- */
 *{
     margin: 0;
     padding: 0;
@@ -24,15 +25,15 @@ p{
     animation: fadeIn 1s forwards;
 }
 
-.image{
+.imagen{
     flex: 1;
     margin-right: 20px;
     opacity: 0;
     animation: slideInFromLeft 1s forwards;
 }
 
-.image img{
-    max-width: 100%;
+.imagen img{
+    width: 120%;
     height: auto;
 }
 
@@ -73,7 +74,7 @@ p{
     }
 }
 
-
+/*-----------------------------------------IMAGEN CIRCULAR---------------------------------------------------*/ 
 #Titulo-Circular{
     height: 500px;
     background-color: white;
@@ -92,38 +93,36 @@ p{
     background-color: #f0f0f0; /* Color de fondo del círculo */
     border-radius: 0 0 3000px 3000px; /* Hacemos que la esquina inferior izquierda y derecha sean redondeadas para crear un círculo perfecto */
     position: relative; /* Permitirá posicionar la imagen dentro del círculo */
-    margin: -300px auto 0;
+    margin: -200px auto 0;
     overflow: hidden; /* Para ocultar partes de la imagen que sobrepasen el círculo */
     z-index: 1;
-  }
-
+}
   
-  
-  .medio-circulo img {
+.medio-circulo img {
     width: 100%; /* La imagen ocupará todo el ancho del círculo */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
     display: block; /* Para eliminar cualquier espacio adicional alrededor de la imagen */
     position: absolute; /* Posiciona la imagen relativa al contenedor */
     bottom: 0; /* Alinea la imagen en la parte inferior del círculo */
     left: 50%; /* Coloca la imagen en el centro horizontalmente */
-    transform: translateX(-50%); /* Ajusta la posición de la imagen horizontalmente */
+    transform: translate(-50%, 30%); /* Ajusta la posición de la imagen horizontalmente */
     object-fit: cover; /* Ajusta la imagen dentro del contenedor sin distorsionarla */
     opacity: 0; /* Configura la opacidad inicial en 0 (completamente transparente) */
     animation: aparecer 1s ease forwards; /* Define la animación 'aparecer' con una duración de 1 segundo */
     z-index: 1;
-    /*filter: blur(6px);  Aplica un desenfoque de 5px a la imagen de fondo */
-  }
+    /*filter: blur(2px);  Aplica un desenfoque de 5px a la imagen de fondo */
+}
   
-  @keyframes aparecer {
+@keyframes aparecer {
     from {
       opacity: 0; /* Comienza con una opacidad de 0 */
     }
     to {
       opacity: 1; /* Termina con una opacidad de 1 */
     }
-  }
+}
   
-  .medio-circulo h1 {
+.medio-circulo h1 {
     color: white;
     font-size: 100px;
     position: relative;
@@ -134,9 +133,9 @@ p{
     z-index: 2;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
-  }
+}
   
-  .medio-circulo h1::after {
+.medio-circulo h1::after {
     content: "";
     position: absolute;
     left: 50%;
@@ -146,54 +145,59 @@ p{
     background: linear-gradient(to right, #ff9900, #ff6600);
     transform: translateX(-50%); /* Centra la barra horizontalmente */
     
-  }
+}
   
-  
-
-  .medio-circulo p {
+.medio-circulo p {
     color: white;
-  font-size: 20px;
-  position: relative;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 2; /* Asegura que el texto esté por encima de la imagen */
-  color: white;
-  font-family: 'Red Hat Display', sans-serif; /* Fallback a una fuente sans-serif por si la fuente no se carga correctamente */
-  font-weight: normal;
-  }
-
+    font-size: 20px;
+    position: relative;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2; /* Asegura que el texto esté por encima de la imagen */
+    color: white;
+    font-family: 'Red Hat Display', sans-serif; /* Fallback a una fuente sans-serif por si la fuente no se carga correctamente */
+    font-weight: normal;
+}
+/*-------------------------------------------ACERCA DE NUESTRO MENU------------------------------------------------*/
 .text{
-    text-align: justify;
+    text-align: center;
 }
 
 .sangria{
-    padding-left: 160px;
-    padding-right: 160px;
-    text-align: justify;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
 }
 
 #TituloA{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     background-color: #ffffff;
     color: #E72D36;
     padding: 10px;
 }
 
 
-/* SECCION DE ACERCA DE NUESTRA COMIDA*/
+/*-------------------------------------SECCION DE ACERCA DE NUESTRA COMIDA-------------------------------------------*/
 #TituloV{
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     background-color: #ffffff;
     color: #F1830B;
     padding: 10px;
 }
 
+.sangria-v{
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: left;
+}
+
 .container-vision {
     display: flex;
+    align-items: center;
 }
 
 .grid-img{
@@ -222,19 +226,29 @@ p{
     width: calc(50% - 10px);
     margin-right: 10px;
 }
-/* ------------------------------------------------------------ */
 
-/* ESTILOS DE EXPLORAR EVENTOS */
+.img-1{
+    grid-column: span 2;
+}
+
+.img-2, .img-3 {
+    grid-column: span 1;
+}
+/*---------------------------------ESTILOS DE EXPLORAR EVENTOS------------------------------------*/
 
 .container-E{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     opacity: 0;
     animation: fadeIn 1s forwards;
-    background-image: url(../imagenes/EJazz.jpg);
-    background-size: 85em;
-    background-position: 30%;
+    background-image:
+        linear-gradient(to left, transparent, black) ,
+        url(../imagenes/saxofon.jpg);
+    background-size: 85em, cover;
+    background-position: 30%, center;
+
 }
 
 #Eeventos{
@@ -242,10 +256,17 @@ p{
 }
 
 .sangria-E{
-    padding-left: 160px;
+    padding-left: 60px;
     padding-right: 160px;
     text-align: justify;
     color: #ffffff;
+    font-size: 20px;
+}
+
+.Titulo-E{
+    padding-left: 60px;
+    padding-right: 160px;
+    font-size: 50px;
 }
 
 .line-container {
@@ -260,79 +281,12 @@ p{
     position: absolute;
     left: 0;
     top: 50%; /* Posición vertical de la línea */
-    width: 100%;
-    height: 5px; /* Grosor de la línea */
+    width: 125%;
+    height: 8px; /* Grosor de la línea */
     background: linear-gradient(to right, #E72D36, #F1830B); /* Color de la línea */
     transform: translateY(-50%); /* Centra verticalmente la línea */
 
 }
-
-
-/*
-.image-p{
-    flex: 1;
-    margin-right: 20px;
-    opacity: 0;
-    animation: slideInFromLeft 1s forwards;
-}
-
-
-.image-p img{
-    max-width: 100%;
-    height: auto;
-}
-
-*/
-/*---------------------------------------------------------- */
-
-/*---------------RESPONSIVIDAD----------*/
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3em; /* Reduce el tamaño de fuente para pantallas pequeñas */
-        margin-top: 5%; /* Ajusta el margen superior */
-        margin-bottom: 2%; /* Ajusta el margen inferior */
-    }
-
-    .navbar {
-        flex-direction: column; /* Cambia la disposición a columna en pantallas pequeñas */
-        align-items: center; /* Centra los elementos */
-    }
-
-    #icono-nav, #titulo-nav {
-        margin-left: 0; /* Centra el icono y el título */
-        text-align: center; /* Centra el texto */
-    }
-
-    .botones-nav {
-        margin-left: 0; /* No desplaza los botones a la derecha */
-        display: flex;
-        justify-content: center; /* Centra los botones */
-        flex-direction: row; /* Mantiene los botones en línea horizontal */
-    }
-    
-    .botones-nav button {
-        font-size: 0.875rem; /* Tamaño de fuente reducido para mejor ajuste en pantallas pequeñas */
-        padding: 0.3em 0.6em; /* Reduce el padding para botones más pequeños */
-        margin-right: 1em; /* Ajustar espacio entre botones */
-    }
-}
-
-@media (max-width: 480px) {
-    #titulo-nav {
-        font-size: 1.125rem; /* Reduce el tamaño del título para pantallas muy pequeñas */
-    }
-
-    .botones-nav button {
-        font-size: 0.75rem; /* Ajusta el tamaño de la fuente para pantallas muy pequeñas */
-    }
-
-    h1 {
-        font-size: 2em; /* Tamaño de fuente aún más pequeño para pantallas muy pequeñas */
-    }
-
-}
-
 
 /*-------TITULO DE GLOBITO------- */
 #Titulo-Circular .tituloTC{
@@ -355,4 +309,91 @@ p{
     background-image: url(../imagenes/EJazz.jpg);
     background-size: 85em;
     background-position: 30%;
+}
+
+/*-----------------------------------RESPONSIVIDAD-----------------------------------*/
+
+/* Para pantallas más pequeñas */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia la dirección de la disposición a columna */
+    }
+
+    .imagen {
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    .texto {
+        margin-top: 20px; /* Añade un espacio entre la imagen y el texto */
+    }
+
+    .grid-img {
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        width: 100%; /* Ajusta el ancho al 100% */
+    }
+
+    .img-grid {
+        margin-bottom: 20px; /* Añade un espacio entre las imágenes */
+    }
+
+    .textoV {
+        width: 100%; /* Ajusta el ancho al 100% */
+        margin-right: 0; /* Elimina el margen derecho */
+    }
+
+    .container-vision {
+        flex-direction: column; /* Cambia la dirección de la disposición a columna */
+    }
+
+    .Texto-E {
+        padding-left: 20px; /* Ajusta el relleno izquierdo */
+        padding-right: 20px; /* Ajusta el relleno derecho */
+        font-size: 16px; /* Reduce el tamaño de fuente */
+    }
+
+    .Titulo-E {
+        font-size: 30px; /* Reduce el tamaño de fuente */
+    }
+
+    .line-container {
+        width: 100%; /* Ajusta el ancho al 100% */
+        padding-left: 20px; /* Ajusta el relleno izquierdo */
+        padding-right: 20px; /* Ajusta el relleno derecho */
+    }
+}
+
+/* Para pantallas más pequeñas */
+@media only screen and (max-width: 576px) {
+    .medio-circulo {
+        margin: -100px auto 0; /* Ajusta el margen del círculo */
+    }
+
+    .medio-circulo img {
+        transform: translate(-50%, 20%); /* Ajusta la posición de la imagen */
+    }
+
+    .medio-circulo h1 {
+        font-size: 60px; /* Reduce el tamaño de fuente */
+    }
+
+    .medio-circulo p {
+        font-size: 16px; /* Reduce el tamaño de fuente */
+    }
+
+    .container-TC {
+        background-size: cover; /* Ajusta el tamaño del fondo */
+    }
+
+    .Texto-E {
+        font-size: 14px; /* Reduce el tamaño de fuente */
+    }
+
+    .Titulo-E {
+        font-size: 24px; /* Reduce el tamaño de fuente */
+    }
+
+    .line-container {
+        padding-left: 10px; /* Ajusta el relleno izquierdo */
+        padding-right: 10px; /* Ajusta el relleno derecho */
+    }
 }

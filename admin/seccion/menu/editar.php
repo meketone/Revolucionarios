@@ -10,13 +10,16 @@ if($_POST){
     $nombre=(isset($_POST["nombre"]))?$_POST["nombre"]:"";
     $descripcion=(isset($_POST["descripcion"]))?$_POST["descripcion"]:"";
     $precio=(isset($_POST["precio"]))?$_POST["precio"]:"";
+    /* CATEGORIA*/
+    $category=(isset($_POST["category"]))?$_POST["category"]:"";
 
-    $sentencia=$conexion->prepare(" UPDATE `tbl_menu` SET nombre=:nombre, descripcion=:descripcion, precio=:precio WHERE ID=:id");
+    $sentencia=$conexion->prepare(" UPDATE `tbl_menu` SET nombre=:nombre, descripcion=:descripcion, precio=:precio, category=:category, WHERE ID=:id");
 
     $sentencia->bindParam(":nombre",$nombre);
     $sentencia->bindParam(":descripcion",$descripcion);
     $sentencia->bindParam(":precio",$precio);
     $sentencia->bindParam(":id",$txtID);
+    $sentencia->bindParam(":category",$category); /*CATEGORIA*/
     
     $sentencia->execute();
 
@@ -64,6 +67,7 @@ if(isset($_GET['txtID'])){
     $descripcion=$registro["descripcion"];
     $foto=$registro["foto"];
     $precio=$registro["precio"];
+    $category=$registro["category"];
 }
 
 include("../../templates/header.php"); 
@@ -111,6 +115,30 @@ include("../../templates/header.php");
         <input type="text"
             class="form-control" value="<?php echo $precio;?>" name="precio" id="precio" aria-describedby="helpId" placeholder="Precio"/>
     </div>
+    <!---- COMBOBOX PARA HACER LA CATEGORIA---->
+    <div>
+        <label for="category" class="form-label">Categoría:</label>
+        <select class="form-select" name="category" id="category">
+            <option value="tacos">Tacos</option>
+            <option value="especialidades">Especialidades</option>
+            <option value="a_la_parrilla">A la parrilla</option>
+            <option value="mariscos">Mariscos</option>
+            <option value="sandwich">Sandwich</option>
+            <option value="ensaladas">Ensaladas</option>
+            <option value="cocteles">Cocteles Especiales</option>
+            <option value="botanas">Botanas</option>
+            <option value="fuente_de_sodas">Fuente de Sodas</option>
+            <option value="cervezas">Cervezas</option>
+            <option value="brandys">Brandys</option>
+            <option value="rones">Rones</option>
+            <option value="whisky">Whisky</option>
+            <option value="tequilas">Tequilas</option>
+            <option value="vodka">Vodka</option>
+            <option value="cognac">Cogñac</option>
+            <option value="botella">Botella</option>
+        </select>
+    </div>
+    <!---- =============== ---->
 
     <button type="submit" class="btn btn-success">Modificar comida</button>
     <a name="" id="" class="btn btn-primary" href="index.php" role="button">Cancelar</a>

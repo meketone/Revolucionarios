@@ -22,11 +22,11 @@
                     <br>
                     <br>
                     <br>
-                    <br>
                     <p>Lugar completamente tradicional con años de experiencia en la </p>
                     <p>creación de alimentos en el estado de Morelia, Michoacán</p>
                 </div>
         </section>
+        <br>
         <br>
         <br>
         <br>
@@ -52,41 +52,60 @@
                 <div class="texto">
                     <p class="sangria">
                         Nuestro menú está cuidadosamente elaborado 
-                        para <b> ofrecer una amplia variedad de platillos tradicionales mexicanos</b>, 
-                        desde tacos y enchiladas hasta pozole y mole. Cada receta se prepara con pasión y atención 
-                        al detalle, <b> para que cada visita sea una experiencia inolvidable llena de sabores aiténticos
-                        y momentos memorables. </b>
+                    </p>
+                    <p class="sangria">
+                        para <b> ofrecer una amplia variedad de platillos</b> 
+                    </p>
+                    <p class="sangria">        
+                        <b>tradicionales mexicanos</b>, desde tacos y
+                    </p>
+                    <p class="sangria"> 
+                        enchiladas hasta pozole y mole. Cada receta se
+                    </p>
+                    <p class="sangria">
+                        prepara con pasión y atención al detalle, <b>para que</b> 
+                    </p>
+                    <p class="sangria">
+                        <b>cada visita sea una experiencia inolvidable llena </b>
+                    </p>
+                    <p class="sangria">
+                        <b>de sabores aiténticos y momentos memorables. </b>
                     </p>
                 </div>
             </div>
         </section>
         <section id="TituloV">
             <h1> Acerca de nuestra comida </h1>
+            <br>
         </section>
         <section id="vision">
             <div class="container-vision">
                 <div class="textoV">
-                    <p class="sangria">
+                    <p class="sangria-v">
                         En Los Revolucionarios, nos enorgullece ofrecerte una experiencia culinaria, auténtica y fresca todos los días. 
-                    </p><br>
-                    <p class ="sangria">
+                    </p>
+                    <br>
+                    <p class ="sangria-v">
                         Nuestro compromiso es simple pero poderoso: cada plato se elabora al día con los ingredientes más frescos y de 
                         la más alta calidad, asegurando que disfrutes de sabores genuinos en cada bocado.
-                    </p><br>
-                    <p class="sangria">
+                    </p>
+                    <br>
+                    <p class="sangria-v">
                         Nos esforzamos por brindarte la máxima disponibilidad posible, para que siempre encuentres un lugar en nuestra mesa cuando 
                         el antojo de auténtica comida mexicana te llame.
-                    </p><br>
-                    <p class="sangria">
+                    </p>
+                    <br>
+                    <p class="sangria-v">
                         En <b>Los Revolucionarios</b> siempre te recibiremos con una sonrisa y platos que te transportarán a los sabores tradicionales de México.
                     </p> 
                 </div>
                 <div class="grid-img">
-                    <div class="img-grid"> <img src="..\imagenes\editadas\_DSC0068.jpg" alt="Imagen 1"> </div>
-                    <div class="img-grid"> <img src="..\imagenes\editadas\_DSC0057.jpg" alt="Imagen 2"> </div>
-                    <div class="img-grid"> <img src="..\imagenes\editadas\_DSC0042.jpg" alt="Imagen 3"> </div>
+                    <div class="img-grid img-1"> <img src="..\imagenes\editadas\_DSC0068.jpg" alt="Imagen 1"> </div>
+                    <div class="img-grid img-2"> <img src="..\imagenes\editadas\_DSC0057.jpg" alt="Imagen 2"> </div>
+                    <div class="img-grid img-3"> <img src="..\imagenes\editadas\_DSC0042.jpg" alt="Imagen 3"> </div>
                 </div>
             </div>
+            <br>
             <br>
         </section>
         <section id="Eeventos">
@@ -94,8 +113,8 @@
                 <div class="texto-E">
                     <br>
                     <br>
-                    <h1 class="sangria">Explora Nuestros</h1>
-                    <h1 class="sangria">Eventos</h1>
+                    <h1 class="Titulo-E">Explora Nuestros</h1>
+                    <h1 class="Titulo-E">Eventos</h1>
                     <!--LINEA DE SEPARACION-->
                     <div class="line-container">
                         <div class="line"></div>
