@@ -1,3 +1,6 @@
+<?php
+require("../admin/bd.php");
+?>
 <!-- <!DOCTYPE html>
 <html lang="en">
 
@@ -34,45 +37,45 @@
 
                     <!--=============== DROPDOWN 1 ===============-->
                     <li class="dropdown__item">
-                        <div class="nav__link"><a href="menu_comida.php">
+                        <div class="nav__link"><a href="menu_Landing.php">
                                 Menu </a> <i class="ri-arrow-down-s-line dropdown__arrow"></i>
 
                         </div>
 
                         <ul class="dropdown__menu">
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=tacos" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Tacos
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=especialidades" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Especialidades
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=a_la_parrilla" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> A la Parrilla
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=mariscos" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Mariscos
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=sandwich" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Sandwich
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=ensaladas" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Ensaladas
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown__link">
+                                <a href="category.php?category=bebidas" class="dropdown__link">
                                     <i class="ri-arrow-up-down-line"></i> Bebidas
                                 </a>
                             </li>

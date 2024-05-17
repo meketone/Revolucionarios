@@ -37,7 +37,7 @@
     </div>
     <div class="wave2">
         <label class="label">Favorito</label>
-        <a href="..\paginas\menu_comida.php" class="button-main-content">IR AL MENÚ</a>
+        <a href="..\paginas\Menu_Landing.php" class="button-main-content">IR AL MENÚ</a>
         <p style="letter-spacing: .1rem;">Consulta nuestras platillos ahora mismo</p>
         <div class="swiper-pagination"></div>
     </div>

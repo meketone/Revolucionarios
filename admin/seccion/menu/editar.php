@@ -13,7 +13,7 @@ if($_POST){
     /* CATEGORIA*/
     $category=(isset($_POST["category"]))?$_POST["category"]:"";
 
-    $sentencia=$conexion->prepare(" UPDATE `tbl_menu` SET nombre=:nombre, descripcion=:descripcion, precio=:precio, category=:category, WHERE ID=:id");
+    $sentencia=$conexion->prepare(" UPDATE `tbl_menu` SET nombre=:nombre, descripcion=:descripcion, precio=:precio, category=:category WHERE ID=:id");
 
     $sentencia->bindParam(":nombre",$nombre);
     $sentencia->bindParam(":descripcion",$descripcion);
@@ -125,7 +125,8 @@ include("../../templates/header.php");
             <option value="mariscos">Mariscos</option>
             <option value="sandwich">Sandwich</option>
             <option value="ensaladas">Ensaladas</option>
-            <option value="cocteles">Cocteles Especiales</option>
+            <option value="bebidas">Bebidas</option>
+            <!--
             <option value="botanas">Botanas</option>
             <option value="fuente_de_sodas">Fuente de Sodas</option>
             <option value="cervezas">Cervezas</option>
@@ -136,6 +137,7 @@ include("../../templates/header.php");
             <option value="vodka">Vodka</option>
             <option value="cognac">Cogñac</option>
             <option value="botella">Botella</option>
+            -->
         </select>
     </div>
     <!---- =============== ---->

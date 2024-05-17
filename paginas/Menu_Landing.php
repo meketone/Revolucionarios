@@ -14,68 +14,68 @@
         <section class="rectangulos">
             <!--TACOS-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
                     <a href="category.php?category=tacos" class="box"> <!--MANDANDO A LLAMAR A LA CATEGORIA-->
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                        <img src="../imagenes/Posible tacos.png" alt="Icono">
                     </a>
                     <span class="titulo">TACOS</span>
                 </div>
             </div>
             <!--ESPECIALIDADES-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
                     <a href="category.php?category=especialidades" class="box">
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                        <img src="../imagenes/Special.png" alt="Icono">
                     </a>
                     <span class="titulo">ESPECIALIDADES</span>
                 </div>
             </div>
             <!--A LA PARRILA--->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
                     <a href="category.php?category=a_la_parrilla" class="box">
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                        <img src="../imagenes/Parrilla.png" alt="Icono">
                     </a>
                     <span class="titulo">A LA PARRILLA</span>
                 </div>
             </div>
             <!--MARISCOS-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
                     <a href="category.php?category=mariscos" class="box">
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                        <img src="../imagenes/Marisques.png" alt="Icono">
                     </a>
                     <span class="titulo">MARISCOS</span>
                 </div>
             </div>
             <!--SANDWICH-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
-                    <a href="category.php?category=sandwich" class="box>
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
+                    <a href="category.php?category=sandwich" class="box">
+                        <img src="../imagenes/Sanwish.png" alt="Icono">
                     </a>
                     <span class="titulo">SANDWICH</span>
                 </div>
             </div>
             <!--ENSALADAS-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
                     <a href="category.php?category=ensaladas" class="box">
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                        <img src="../imagenes/Ensaladita.png" alt="Icono">
                     </a>
                     <span class="titulo">ENSALADAS</span>
                 </div>
             </div>
             <!--COCTELES ESPECIALES-->
             <div class="rectangulo">
-                <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
-                    <a href="category.php?category=cocteles" class="box">
-                        <img src="Revolucionarios\imagenes\sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.avif" alt="Icono">
+                <div class="imagen" style="background-image: url('../imagenes/papel.jpg');">
+                    <a href="category.php?category=bebidas" class="box">
+                        <img src="../imagenes/Bebidas.png" alt="Icono">
                     </a>
                     <span class="titulo">BEBIDAS</span>
                 </div>
             </div>
-            <!--BOTANAS-->
+            <!--BOTANAS
             <div class="rectangulo">
                 <div class="imagen" style="background-image: url('Revolucionarios/imagenes/papel.jpg');">
                     <a href="category.php?category=botanas" class="box">
@@ -84,6 +84,7 @@
                     <span class="titulo">BOTANAS</span>
                 </div>
             </div>
+            -->
     </section>
     
     <div class="descarga">
